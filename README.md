@@ -20,7 +20,9 @@
 * Oracle SQL Developer
 * Oracle SQL*PLUS
 
-## Comandos SQL - DML
+<br>
+
+# Comandos SQL 
 
 #### Data Manipulation Language (DML):
 
@@ -30,7 +32,6 @@
 * **`DELETE`**: Utilizado para deletar linhas em uma tabela.
 * **`MERGE`**: Utilizado para comparar duas tabelas (Origem e Destino) e realizar a atualização da tabela destino.
 
-## Comandos SQL - DDL
 
 #### Data Definition Language (DDL):
 
@@ -41,14 +42,12 @@
 * **`TRUNCATE`**: Utilizado para excluir os registros de uma tabela (vazia);
 * **`COMMENT`**: Utilizado para adicionar um comentario (descrição) para uma tabela ou coluna.
 
-## Comandos SQL - DCL
 
 #### Data Control Language (DCL):
 
 * **`GRANT`**: Utilizado para conceder privilegios.
 * **`REVOKE`**: Utilizado para revogar privilegios.
 
-## Comandos SQL - Controle de Transação
 
 #### Transation Control:
 
