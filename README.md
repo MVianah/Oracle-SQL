@@ -34,6 +34,26 @@
 
 #### Data Definition Language (DDL):
 
-*
+* **`CREATE`**: Utilizado para criação de tabela, indice, views, sequence, etc.
+* **`ALTER`**: Utilizado para alteração de estrutura de uma tabela, indice, sequence, etc.
+* **`DROP`**: Utilizado para remoiver uma tabela, indice, sequence, etc.
+* **`RENAME`**: Utilizado para renomear um objeto.
+* **`TRUNCATE`**: Utilizado para excluir os registros de uma tabela (vazia);
+* **`COMMENT`**: Utilizado para adicionar um comentario (descrição) para uma tabela ou coluna.
+
+## Comandos SQL - DCL
+
+#### Data Control Language (DCL):
+
+* **`GRANT`**: Utilizado para conceder privilegios.
+* **`REVOKE`**: Utilizado para revogar privilegios.
+
+## Comandos SQL - Controle de Transação
+
+#### Transation Control:
+
+* **`COMMIT`**: Utilizado para efetivar uma transação.
+* **`ROLLBACK`**: Utilizado para desfazer uma transação.
+* **`SAVEPOINT`**: Utilizado para criar pontos de controle dentro de uma transação.
 
  
