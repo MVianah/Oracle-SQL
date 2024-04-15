@@ -55,4 +55,8 @@
 * **`ROLLBACK`**: Utilizado para desfazer uma transação.
 * **`SAVEPOINT`**: Utilizado para criar pontos de controle dentro de uma transação.
 
+<br>
+
+# Consultando dados - SQL SELECT
+
  
