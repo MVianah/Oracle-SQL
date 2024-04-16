@@ -25,7 +25,7 @@ DESC Jobs
 SELECT * 
 FROM   jobs;
 
--- Selecionando colunas específicas
+-- Selecionando colunas especificas
 
 SELECT employee_id, first_name, last_name, salary
 FROM   employees;
@@ -33,27 +33,25 @@ FROM   employees;
 SELECT department_id, department_name, manager_id
 FROM   departments;
 
--- Utilizando operadores aritméticos
+-- Utilizando operadores aritmeticos
 
 SELECT  first_name, last_name, salary, salary * 1.15 
 FROM    employees;
 
--- Regras de Precedência de Operadores
+-- Regras de Precedencia de Operadores
 
 SELECT  first_name, last_name, salary, salary + 100 * 1.15 
 FROM    employees;
 
--- Utilizando parênteses para alterar a precedência
+-- Utilizando parenteses para alterar a precedencia
 
 SELECT  first_name, last_name, salary, (salary + 100) * 1.15 
 FROM    employees;
 
-Entendo o valor Nulo (NULL)
-
 SELECT  first_name, last_name, job_id, salary,  commission_pct
 FROM    employees;
 
--- Utilizando Valores Nulos em expressões aritméticas
+-- Utilizando Valores Nulos em expressï¿½es aritmï¿½ticas
 
 SELECT  first_name, last_name, job_id, commission_pct, 200000 * commission_pct
 FROM    employees
@@ -61,23 +59,23 @@ WHERE   commission_pct IS NULL;
 
 -- Utilizando Alias de Coluna
 
-SELECT first_name AS nome, last_name AS sobrenome, salary AS salário
+SELECT first_name AS nome, last_name AS sobrenome, salary AS salï¿½rio
 FROM employees;
 
-SELECT first_name nome, last_name  sobrenome, salary salário
+SELECT first_name nome, last_name  sobrenome, salary salï¿½rio
 FROM employees;
 
-SELECT first_name "Nome", last_name "Sobrenome", salary "Salário ($)", commission_pct "Percentual de comissão"
+SELECT first_name "Nome", last_name "Sobrenome", salary "Salï¿½rio ($)", commission_pct "Percentual de comissï¿½o"
 FROM   employees;
 
--- Utilizando Operador de concatenação 
+-- Utilizando Operador de concatenaï¿½ï¿½o 
 
-SELECT first_name || ' ' || last_name || ', data de admissão: ' || hire_date "Funcionário"
+SELECT first_name || ' ' || last_name || ', data de admissï¿½o: ' || hire_date "Funcionï¿½rio"
 FROM   employees;
 
--- Utilizando Operador de concatenação e Strings de caracteres 
+-- Utilizando Operador de concatenaï¿½ï¿½o e Strings de caracteres 
 
-/*SELECT first_name || ' ' || last_name || ', data de admissão: ' || hire_date "Funcionário"
+/*SELECT first_name || ' ' || last_name || ', data de admissï¿½o: ' || hire_date "Funcionï¿½rio"
 FROM   employees;*/
 
 -- Linhas duplicadas

@@ -59,4 +59,12 @@
 
 # Consultando dados - SQL SELECT
 
+Utilizamos a clausula `SELECT` para realizar consulta de registros em tabelas da base de dados.
+
+* **EX**
+
+    ```sql
+    SELECT * FROM EMPLOYEES;
+    ```
+
  
